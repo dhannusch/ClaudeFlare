@@ -26,6 +26,11 @@ Build workflows and automations faster than n8n using Claude Code and Cloudflare
    claude --dangerously-skip-permissions
    ```
 
+4. Authenticate MCP Servers:
+   - Within Claude Code, run the `/mcp` command
+   - Select and authenticate each MCP server with your Cloudflare credentials
+   - This enables real-time access to Cloudflare documentation and bindings
+
 ### Usage
 
 This project is designed to work seamlessly with Claude Code. Simply describe what automation you want to build and let Claude handle the implementation.
