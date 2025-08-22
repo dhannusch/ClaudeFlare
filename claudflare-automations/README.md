@@ -4,6 +4,25 @@ Build workflows and automations faster than n8n using Claude Code and Cloudflare
 
 ## Getting Started
 
+### Setup
+
+1. Clone the repository and navigate to this project:
+   ```bash
+   git clone https://github.com/dhannusch/ClaudeFlare.git
+   cd ClaudeFlare/claudflare-automations
+   ```
+
+2. Set up Cloudflare (if you haven't already):
+   - Create a free Cloudflare account at [cloudflare.com](https://cloudflare.com)
+   - Follow the [Cloudflare Workers getting started guide](https://developers.cloudflare.com/workers/get-started/guide/) to install Wrangler CLI and authenticate
+
+3. Start Claude Code:
+   ```bash
+   claude
+   ```
+
+### Usage
+
 This project is designed to work seamlessly with Claude Code. Simply describe what automation you want to build and let Claude handle the implementation.
 
 ### Quick Commands
