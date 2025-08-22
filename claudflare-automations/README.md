@@ -20,6 +20,11 @@ Build workflows and automations faster than n8n using Claude Code and Cloudflare
    ```bash
    claude
    ```
+   
+   **Optional - Skip Permission Checks**: For faster development without permission prompts (use at your own risk):
+   ```bash
+   claude --dangerously-skip-permissions
+   ```
 
 ### Usage
 
@@ -28,7 +33,7 @@ This project is designed to work seamlessly with Claude Code. Simply describe wh
 ### Quick Commands
 
 - `/build [your automation idea]` - Create a new workflow or automation
-- `/ui [optional styling preferences]` - Add a React UI to your existing automation
+- `/ui [project-name] [optional styling preferences]` - Add a React UI to your existing automation
 
 ### Examples
 
@@ -38,10 +43,10 @@ This project is designed to work seamlessly with Claude Code. Simply describe wh
 /build Monitor RSS feeds and send email summaries daily
 ```
 
-After building an automation, enhance it with a UI:
+After building an automation, enhance it with a UI (specify the project name):
 ```
-/ui Create a dashboard to monitor automation status
-/ui Build a form to manually trigger the workflow
+/ui slack-form-automation Create a dashboard to monitor automation status
+/ui github-webhook-automation Build a form to manually trigger the workflow
 ```
 
 ## Architecture

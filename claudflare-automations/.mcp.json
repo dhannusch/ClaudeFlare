@@ -15,6 +15,14 @@
     "cloudflare-bindings": {
       "type": "sse",
       "url": "https://bindings.mcp.cloudflare.com/sse"
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "env": {}
     }
   }
 }
